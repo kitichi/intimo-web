@@ -1,0 +1,1354 @@
+{
+ "_nota": "Lista base verificada en octubre de 2026 a partir de las fuentes indicadas. Es editable: la app debe permitir agregar, renombrar u ocultar títulos. 'url_descarga' solo se llenó donde se comprobó un PDF directo (respuesta válida y cabecera %PDF): Samael desde gnosis-samaelaunweor.org, Lakhsmi desde books.gnosis.is; si es null, usar las fuentes del maestro. Versión 2 (octubre de 2026): se agregaron 31 obras de la V.M. Lakhsmi publicadas en books.gnosis.is (todas comprobadas: cabecera %PDF) y el Curso Zodiacal de Krumm-Heller en EPUB desde Wikisource (dominio público). Las obras con 'desde': 2 se agregan una sola vez a quien ya tenía la app. Versión 3: se agregaron 48 obras de Samael y 9 de la V.M. Lakhsmi del catálogo de books.gnosis.is (Biblioteca Gnóstica para Cursos Online), comprobadas %PDF; el Tratado de Teurgia pasa a books.gnosis.is porque gnosischile.cl no responde ('url_anterior' reemplaza el enlace viejo).",
+ "maestros": [
+  {
+   "id": "samael",
+   "nombre": "V.M. Samael Aun Weor",
+   "color": "#e2b86f",
+   "iniciales": "SAW",
+   "fuentes": [
+    {
+     "nombre": "Gnosis Samael Aun Weor (PDF, Word, EPUB)",
+     "url": "https://gnosis-samaelaunweor.org/libros-samael/"
+    },
+    {
+     "nombre": "Internet Archive (29 libros, PDF/EPUB/TXT)",
+     "url": "https://archive.org/details/Samael_AunWeor_-_Libros"
+    }
+   ],
+   "nota_derechos": "En Internet Archive figura una declaración del autor (1976) renunciando a sus derechos de autor.",
+   "obras": [
+    {
+     "titulo": "El Matrimonio Perfecto o la Puerta de Entrada a la Iniciación",
+     "anio": 1950,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1950_EL-MATRIMONIO-PERFECTO-O-LA-PUERTA-DE-ENTRADA-A-LA-INICIACION_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Revolución de Bel",
+     "anio": 1950,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1950_LA-REVOLUCION-DE-BEL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Curso Zodiacal",
+     "anio": 1951,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1951_CURSO-ZODIACAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Apuntes Secretos de un Gurú",
+     "anio": 1952,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1952_APUNTES-SECRETOS-DE-UN-GURU_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Catecismo Gnóstico o Conciencia Cristo",
+     "anio": 1952,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1952_CATECISMO-GNOSTICO-O-CONCIENCA-CRISTO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Libro de la Virgen del Carmen",
+     "anio": 1952,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1952_EL-LIBRO-DE-LA-VIRGEN-DEL-CARMEN_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Las Siete Palabras",
+     "anio": 1953,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1953_LAS-SIETE-PALABRAS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Manual de Magia Práctica",
+     "anio": 1954,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1954_MANUAL-DE-MAGIA-PRACTICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Rosa Ígnea",
+     "anio": 1954,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1954_ROSA-IGNEA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tratado de Alquimia Sexual",
+     "anio": 1954,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1954_TRATADO-DE-ALQUIMIA-SEXUAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Misterios del Fuego",
+     "anio": 1955,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1955_LOS-MISTERIOS-DEL-FUEGO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Platillos Voladores",
+     "anio": 1955,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1955_PLATILLOS-VOLADORES_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tratado de Medicina Oculta y Magia Práctica",
+     "anio": 1955,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1955_TRATADO-DE-MEDICINA-OCULTA-Y-DE-MAGIA-PRACTICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Misterios Mayores",
+     "anio": 1956,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1956_LOS-MISTERIOS-MAYORES_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Magnus Opus",
+     "anio": 1958,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1958_EL-MAGNUS-OPUS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Libro Amarillo",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_EL-LIBRO-AMARILLO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Mensaje de Acuario",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_EL-MENSAJE-DE-ACUARIO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Montaña de la Juratena",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_LA-MONTANA-DE-LA-JURATENA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Logos Mantram Teúrgia",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_LOGOS-MANTRAM-TEURGIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Nociones Fundamentales de Endocrinología y Criminología",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_NOCIONES-FUNDAMENTALES-DE-ENDOCRINOLOGIA-Y-CRIMINOLOGIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tratado Esotérico de Teúrgia",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_TRATADO-ESOTERICO-DE-TEURGIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Voluntad Cristo",
+     "anio": 1959,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1959_VOLUNTAD-CRISTO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Matrimonio Perfecto",
+     "anio": 1961,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1961_EL-MATRIMONIO-PERFECTO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Introducción a la Gnosis",
+     "anio": 1961,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1961_INTRODUCCION-A-LA-GNOSIS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Caridad Universal",
+     "anio": 1961,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1961_LA-CARIDAD-UNIVERSAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Misterios de la Vida y de la Muerte",
+     "anio": 1962,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1962_LOS-MISTERIOS-DE-LA-VIDA-Y-DE-LA-MUERTE_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Gnosis en el Siglo XX",
+     "anio": 1963,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1963_GNOSIS-EN-EL-SIGLO-XX_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Matrimonio, Divorcio y Tantrismo",
+     "anio": 1963,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1963_MATRIMONIO-DIVORCIO-Y-TANTRISMO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Cristo Social",
+     "anio": 1964,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1964_EL-CRISTO-SOCIAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Disolución del Yo",
+     "anio": 1964,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1964_LA-DISOLUCION-DEL-YO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Las Naves Cósmicas",
+     "anio": 1964,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1964_LAS-NAVES-COSMICAS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Libro de los Muertos",
+     "anio": 1965,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1965_EL-LIBRO-DE-LOS-MUERTOS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Transformación Social de la Humanidad",
+     "anio": 1965,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1965_LA-TRANSFORMACION-SOCIAL-DE-LA-HUMANIDAD_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Collar del Buddha",
+     "anio": 1966,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1967_EL-COLLAR-DEL-BUDDHA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Ciencia de la Música",
+     "anio": 1966,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1966_LA-CIENCA-DE-LA-MUSICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Cuerpos Solares",
+     "anio": 1967,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1968_LOS-CUERPOS-SOLARES_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tratado Esotérico de Astrología Hermética",
+     "anio": 1967,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1967_TRATADO-ESOTERICO-DE-ASTROLOGIA-HERMETICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Curso Esotérico de Kábala",
+     "anio": 1969,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1969_CURSO-ESOTERICO-DE-KABALA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Magia de las Runas",
+     "anio": 1969,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1969_CURSO-ESOTERICO-DE-LAS-RUNAS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Mi Regreso al Tíbet",
+     "anio": 1969,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1969_MI-REGRESO-AL-TIBET_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Educación Fundamental",
+     "anio": 1970,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1970_EDUCACION-FUNDAMENTAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Parsifal Develado",
+     "anio": 1970,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1970_EL-PARSIFAL-DEVELADO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Más Allá de la Muerte",
+     "anio": 1970,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1970_MAS-ALLA-DE-LA-MUERTE_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "El Misterio del Áureo Florecer",
+     "anio": 1971,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1971_EL-MISTERIO-DEL-AUREO-FLORECER_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Las Tres Montañas",
+     "anio": 1972,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1972_LAS-TRES-MONTANAS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Mirando al Misterio",
+     "anio": 1972,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1972_MIRANDO-AL-MISTERIO_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Magia Crística Azteca",
+     "anio": 1973,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1973_MAGIA-CRISTICA-AZTECA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Sí: Hay Infierno, Diablo y Karma",
+     "anio": 1973,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1973_SI-HAY-INFIERNO-DIABLO-Y-KARMA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Transformación Radical",
+     "anio": 1973,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1973_LA-TRANSFORMACION-RADICAL_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Doctrina Secreta de Anáhuac",
+     "anio": 1974,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1974_LA-DOCTRINA-SECRETA-DE-ANAHUAC_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Los Planetas Metálicos de la Alquimia",
+     "anio": 1974,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1974_LOS-PLANETAS-METALICOS-DE-LA-ALQUIMIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Gran Rebelión",
+     "anio": 1975,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1975_LA-GRAN-REBELION_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tratado de Psicología Revolucionaria",
+     "anio": 1975,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1975_PSICOLOGIA-REVOLUCIONARIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Antropología Gnóstica",
+     "anio": 1977,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1977_ANTROPOLOGIA-GNOSTICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Las Respuestas que Dio un Lama",
+     "anio": 1977,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1977_LAS-RESPUESTAS-QUE-DIO-UN-LAMA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Misterios Mayas",
+     "anio": 1977,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1977_MISTERIOS-MAYAS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Tarot y Kábala",
+     "anio": 1978,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1978_TAROT-Y-KABALA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "Para los Pocos",
+     "anio": 1980,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1980_PARA-LOS-POCOS_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Pistis Sophia Develada",
+     "anio": 1983,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1983_PISTIS-SOPHIA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "La Revolución de la Dialéctica",
+     "anio": 1985,
+     "url_descarga": "https://www.gnosis-samaelaunweor.org/wp-content/uploads/libros/1985_LA-REVOLUCION-DE-LA-DIALECTICA_Samael-Aun-Weor.pdf"
+    },
+    {
+     "titulo": "A los Mil Llegamos pero a los Dos Mil No",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/A%20Los%20Mil%20Llegamos%20pero%20a%20los%20Dos%20Mil%20No.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Astrología Esotérica",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Astrologia%20Esoterica.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Blue Time",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Blue%20Time.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Catecismo Develado",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/CATECISMO%20DEVELADO.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Carta del 29 de Enero de 1976",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Carta%20del%2029%20de%20Enero%20de%201976.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Claves de la Dinámica Mental",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Claves%20de%20la%20Dinamica%20Mental.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Didáctica Concreta para la Disolución del Ego",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Didactica%20Concreta%20para%20la%20Disolucion%20del%20Ego.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Didáctica del Autoconocimiento",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Didactica%20del%20Autoconocimiento.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Ejercicios de Lamasería",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Ejercicios%20de%20Lamaseria.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Despertar del Hombre",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Despertar%20del%20Hombre.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Eterno Femenino",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Eterno%20Femenino.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Rayo de la Muerte",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Rayo%20de%20la%20Muerte.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Sabor Trabajo y el Sabor Vida",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Sabor%20Trabajo%20y%20el%20Sabor%20Vida.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Simbolismo Esotérico y Alquímico de la Navidad",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Simbolismo%20Esoterico%20y%20Alquimico%20de%20la%20Navidad.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Verbo de Oro",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20Verbo%20de%20Oro.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "El Poder de los Mantrams",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/El%20poder%20de%20los%20Mantrams.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Glosario Gnóstico",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Glosario%20Gnostico.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico del Tercer Año de Acuario",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20Del%20Tercer%20Ano%20De%20Acuario.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico Internacional 1976",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20Internacional%201976.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico a Nuestros Amadísimos Hermanos Gnósticos Brasileños",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20a%20Nuestros%20Amadisimos%20Hermanos%20Gnosticos%20Brasilenos.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico de 1971",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20de%201971.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico de 1972",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20de%201972.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico del 13 de Mayo de 1976",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20del%2013%20de%20Mayo%20de%201976.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto Gnóstico del Supremo Consejo de la Paz",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20Gnostico%20del%20Supremo%20Consejo%20de%20la%20Paz.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Gran Manifiesto de la Sede Patriarcal de México (1 de junio de 1976)",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Gran%20Manifiesto%20de%20la%20Sede%20Patriarcal%20de%20Mexico%20con%20fecha%201%20de%20Junio%20de%201976.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "La Bella Helena",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/La%20Bella%20Helena.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "La Ciencia de la Meditación",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/La%20Ciencia%20de%20la%20Meditacion.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "La Felicidad Mediante la Meditación Superior",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/La%20Felicidad%20Mediante%20la%20Meditacion%20Superior.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "La Influencia Lunar",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/La%20Influencia%20Lunar.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "La Piedra Filosofal o el Secreto de los Alquimistas",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/La%20Piedra%20Filosofal%20o%20el%20Secreto%20de%20los%20Alquimistas.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Las Escuelas Esotéricas",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Las%20Escuelas%20Esotericas.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Los Extraterrestres",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Los%20Extraterrestres.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Los Misterios del Esoterismo Crístico",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Los%20Misterios%20del%20Esoterismo%20Cristico.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Luto en la Bandera Gnóstica",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Luto%20en%20la%20Bandera%20Gnostica.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Manifiesto Gnóstico Cristiano Universal (enero de 1962)",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Manifiesto%20Gnostico%20Cristiano%20Universal%20-%20Enero%201962.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Matrimonio Perfecto (Kínder)",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Matrimonio%20Perfecto%20%28Kinder%29.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Mensaje Supremo de Navidad 1965-1966",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Mensaje%20Supremo%20de%20Navidad%201965-1966.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Mensaje Supremo de Navidad 1967-1968",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Mensaje%20Supremo%20de%20Navidad%201967-1968.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Mensaje de Año Nuevo 1958",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Mensaje%20de%20A%20Nuevo%201958.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Mensaje de Navidad 1964",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Mensaje%20de%20Navidad%201964.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Mensaje de Navidad 1969-1970",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Mensaje%20de%20Navidad%201969-1970.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Omar",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Omar.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Plataforma del POSCLA",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Plataforma%20del%20POSCLA.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Psicología del Trabajo Interior",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Psicologia%20del%20Trabajo%20Interior.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "¿Qué es Gnosis?",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Que%20es%20Gnosis.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Recordatorio en el Duodécimo Aniversario del Natalicio Espiritual del Ángel Samael",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Recordatorio%20en%20el%20duodecimo%20aniversario%20del%20natalicio%20espiritual%20del%20Angel%20Samael.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Significado Oculto de los Sueños",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Significado%20Oculto%20de%20los%20Suenos.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Supremo Gran Manifiesto Universal del Movimiento Gnóstico",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Samael/Espanol/Supremo%20Gran%20Manifiesto%20Universal%20del%20Movimiento%20Gnostico.pdf",
+     "desde": 3
+    }
+   ]
+  },
+  {
+   "id": "lakhsmi",
+   "nombre": "V.M. Lakhsmi Daimon",
+   "color": "#6fa3ff",
+   "iniciales": "L",
+   "fuentes": [
+    {
+     "nombre": "Bibliografía (Gnosis Chile)",
+     "url": "https://gnosischile.wordpress.com/2009/02/13/bibliografia-del-vm-lakhsmi/"
+    },
+    {
+     "nombre": "Gnosis Chile (PDF)",
+     "url": "https://gnosischile.cl/lakhsmi-daimon/"
+    },
+    {
+     "nombre": "gnosissa.com (PDF)",
+     "url": "https://www.gnosissa.com/libros/lakhsmi/pdf/"
+    },
+    {
+     "nombre": "books.gnosis.is (PDF)",
+     "url": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/"
+    }
+   ],
+   "obras": [
+    {
+     "titulo": "Psicoanálisis I",
+     "anio": 1982,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Psicoanalisis%20de%20la%20Vida%20I.pdf"
+    },
+    {
+     "titulo": "Psicoanálisis II",
+     "anio": 1982,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Muerte en la Cruz",
+     "anio": 1987,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Muerte%20en%20la%20Cruz.pdf"
+    },
+    {
+     "titulo": "Así está la Humanidad",
+     "anio": 1988,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Asi%20esta%20la%20Humanidad.pdf"
+    },
+    {
+     "titulo": "Luz en las Tinieblas",
+     "anio": 1990,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Luz%20en%20las%20Tinieblas.pdf"
+    },
+    {
+     "titulo": "La Verdad Desnuda",
+     "anio": 1991,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Mensaje Año Nuevo 1993",
+     "anio": 1993,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Mensaje Año Nuevo 1994",
+     "anio": 1994,
+     "url_descarga": null
+    },
+    {
+     "titulo": "En Acuario un Nuevo Éxodo",
+     "anio": 1994,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/En%20Aquario%20un%20Nuevo%20%C3%89xodo.pdf"
+    },
+    {
+     "titulo": "Evangelio de Judas",
+     "anio": 1995,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Mensaje Navidad 1995",
+     "anio": 1995,
+     "url_descarga": null
+    },
+    {
+     "titulo": "La Era de Acuario",
+     "anio": 1996,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20era%20de%20Acuario.pdf"
+    },
+    {
+     "titulo": "Recital a un Pueblo",
+     "anio": 1996,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Recital%20a%20un%20pueblo.pdf"
+    },
+    {
+     "titulo": "Curso Prematrimonial",
+     "anio": 1996,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Curso%20Prematrimonial.pdf"
+    },
+    {
+     "titulo": "Orientaciones para la Juventud",
+     "anio": 1997,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Orientaciones%20para%20la%20Juventud.pdf"
+    },
+    {
+     "titulo": "Regreso del Mesías",
+     "anio": 1997,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Regreso%20del%20Mesias.pdf"
+    },
+    {
+     "titulo": "Mensaje Navidad 1997",
+     "anio": 1997,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/NAVIDAD%2097.pdf"
+    },
+    {
+     "titulo": "Recital a un Pueblo II",
+     "anio": 1998,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/RECITAL%20A%20UN%20PUEBLO%202.pdf"
+    },
+    {
+     "titulo": "Cúrese Usted Mismo",
+     "anio": 1998,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Tratado de Medicina Natural, Quiriología",
+     "anio": 1998,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Tratado-de-Medicina-Natural-Quiriologia-Iriologia-y-Sintomatologia.pdf"
+    },
+    {
+     "titulo": "Alquimia I",
+     "anio": 1998,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Alquimia1.pdf"
+    },
+    {
+     "titulo": "Alquimia II",
+     "anio": 1999,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Alquimia2.pdf"
+    },
+    {
+     "titulo": "Lenguaje de los Sueños",
+     "anio": 1999,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Lenguaje%20de%20los%20Sue%C3%B1os.pdf"
+    },
+    {
+     "titulo": "Enigmas Femeninos",
+     "anio": 1999,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/ENIGMAS%20FEMENINOS.pdf"
+    },
+    {
+     "titulo": "Mensaje Navidad 1999",
+     "anio": 1999,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Mensaje%20de%20Navidad%201999.pdf"
+    },
+    {
+     "titulo": "Los Misterios de Eleusis",
+     "anio": 2000,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Los%20Misterios%20de%20Eleusis.pdf"
+    },
+    {
+     "titulo": "Citas Bíblicas",
+     "anio": 2000,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/2000%20citas%20biblicas.pdf"
+    },
+    {
+     "titulo": "Conferencias Inéditas",
+     "anio": 2000,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Conferencias%20Ineditas.pdf"
+    },
+    {
+     "titulo": "El Divino Daimón",
+     "anio": 2001,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Divino%20Daimon.pdf"
+    },
+    {
+     "titulo": "Recital a un Pueblo III",
+     "anio": 2003,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Tratado de Teurgia",
+     "anio": 2004,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Tratado%20de%20Teurgia.pdf",
+     "url_anterior": "https://gnosischile.cl/wp-content/uploads/2020/07/Tratado-de-teurgia.pdf"
+    },
+    {
+     "titulo": "Reflexiones de un Investigador (1 a 7)",
+     "anio": 2004,
+     "url_descarga": null
+    },
+    {
+     "titulo": "La Tierra Prometida",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Magia de los Perfumes",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Magia%20de%20los%20Perfumes.pdf"
+    },
+    {
+     "titulo": "Orientación a la Juventud II",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Curso de Gnosis",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Curso%20Gnosis.pdf"
+    },
+    {
+     "titulo": "La Ciencia de Orar",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Ciencia%20De%20Orar.pdf"
+    },
+    {
+     "titulo": "Proverbios de la Psicología I",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Proverbios de la Psicología II",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "La Mujer Gnóstica",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Mujer%20Gn%C3%B3stica.pdf"
+    },
+    {
+     "titulo": "Los 7 Logos",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Trabajo%207%20logos.pdf"
+    },
+    {
+     "titulo": "Cátedras Gnósticas",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Catedras%20Gnosticas.pdf"
+    },
+    {
+     "titulo": "Salmos",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Las Plantas y sus Propiedades Curativas",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Las%20plantas%20y%20sus%20propiedades%20curativas.pdf"
+    },
+    {
+     "titulo": "Las 10 Reglas para un Hogar Feliz",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Las%20Diez%20Reglas%20para%20un%20Hogar%20Feliz.pdf"
+    },
+    {
+     "titulo": "Anales y Fundamentos de la Iglesia Gnóstica (recopilación)",
+     "anio": 1995,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Gemas para la Divina Madre (recopilación)",
+     "anio": 2007,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Las Joyas del Dragón Amarillo, tomos 1 a 4 (recopilación)",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Reflexiones de un Investigador 1",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20Investigador%201.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Reflexiones de un Investigador 2",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20Investigador%202.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Reflexiones de un Investigador 3",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20Investigador%203.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Reflexiones de un Investigador 4",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20Investigador%204.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Reflexiones de un Investigador 5",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20Investigador%205.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Reflexiones de un Investigador (anexo)",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Reflexiones%20de%20un%20investigador%20%28anexo%29.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Las 33 Joyas del Dragón Amarillo, tomo 1",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Las%2033%20Joyas%20Del%20Dragon%20Amarillo%20%28Tomo%201%29.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Las 33 Joyas del Dragón Amarillo, tomo 3",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Las%2033%20Joyas%20Del%20Dragon%20Amarillo%20%28Tomo%203%29.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Las 33 Joyas del Dragón Amarillo, tomo 4",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Las%2033%20Joyas%20Del%20Dragon%20Amarillo%20%28Tomo%204%29.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Agrocultura I",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Agrocultura%20I.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Agrocultura II",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Agrocultura%20II.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Diálogos Esotéricos",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Dialogos%20esotericos.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Diccionario Esotérico",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Diccionario%20Esoterico.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "El Alma Blanca",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Alma%20Blanca.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "El Décimo Misterio de la Cruz",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Decimo%20Misterio%20de%20la%20Cruz.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "El Ultimátum",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Ultimatum.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "El Viacrucis de Jesús y las Siete Palabras",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/El%20Viacrucis%20de%20Jesus%20y%20las%20Siete%20Palabras.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Estudio y Análisis del Yo",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Estudio%20y%20Analisis%20de%20Yo.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Historia del Comején",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Historia%20Del%20Comej%C3%A9n.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Develación",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Develacion.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Falsa Personalidad",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Falsa%20Personalidad.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Iglesia Restaurada",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/la%20Iglesia%20restaurada.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Ley del Destino",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Ley%20del%20destino.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Maternidad",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20maternidad.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Mujer en su Cristificación",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Mujer%20en%20su%20Cristificacion.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "La Vida y sus Misterios",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/La%20Vida%20y%20sus%20Misterios.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Los Misterios de la Cruz",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Los%20misterios%20de%20la%20Cruz.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Vida y Obra de un Hombre",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Vida%20y%20Obra%20de%20un%20Hombre.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Ejercicios de Transmutación",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/EJERCICIOS%20DE%20TRANSMUTACION.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Ejercicios Físicos y Respiratorios",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Ejercicios%20fisicos%20y%20respiratorios.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Mensaje del 93",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/mensaje%20del%2093.pdf",
+     "desde": 2
+    },
+    {
+     "titulo": "Congreso República Dominicana 1997, parte 1",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Congreso%20Rep%20Dom%2097%20Parte%201.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Congreso República Dominicana 1997, parte 2",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Congreso%20Rep%20Dom%2097%20Parte%202.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Congreso República Dominicana 1997, parte 3",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Congreso%20Rep%20Dom%2097%20Parte%203.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Congreso República Dominicana 1997, parte 4",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Congreso%20Rep%20Dom%2097%20Parte%204.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Convivencia Agosto 2001",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Convivencia%20Agosto%202001.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Diálogos",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Dialogos.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Resumen de la Convivencia de Agosto 2001: Curación del Cuerpo Físico",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Resumen%20Conviv%20Agosto%202001%20-%20Curacion%20cuerpo%20fisico.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Resumen de la Convivencia de Agosto 2002: La Develación",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Resumen%20Conviv%20Agosto%202002%20-%20La%20develacion.pdf",
+     "desde": 3
+    },
+    {
+     "titulo": "Resumen de la Convivencia de Semana Santa 2003",
+     "anio": null,
+     "url_descarga": "https://books.gnosis.is/Biblioteca/Lakhsmi/Espanol/Resumen%20Conviv.%20Semana%20Santa%202003.pdf",
+     "desde": 3
+    }
+   ]
+  },
+  {
+   "id": "rabolu",
+   "nombre": "V.M. Rabolú",
+   "color": "#ff6b62",
+   "iniciales": "R",
+   "fuentes": [
+    {
+     "nombre": "Lista de títulos (todostuslibros)",
+     "url": "https://www.todostuslibros.com/creador/rabolu-v-m_2432750"
+    }
+   ],
+   "obras": [
+    {
+     "titulo": "Hercólubus o Planeta Rojo",
+     "anio": null,
+     "url_descarga": "https://de.cdn-website.com/6088fcfe2b744e42870de8efa62cd8d9/files/uploaded/Libro-Hercolubus-o-Planeta-Rojo---Espano.pdf"
+    },
+    {
+     "titulo": "El Águila Rebelde",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Síntesis de las Tres Montañas",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Ciencia Gnóstica",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Orientando al Discípulo",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Mensajes de Navidad",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Por la Juventud en el 25 Año de Acuario",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Por el Nuevo Orden",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Estatutos y Reglamentos Generales",
+     "anio": null,
+     "url_descarga": null
+    }
+   ]
+  },
+  {
+   "id": "huiracocha",
+   "nombre": "Arnoldo Krumm-Heller (Huiracocha)",
+   "color": "#f5d21c",
+   "iniciales": "H",
+   "fuentes": [
+    {
+     "nombre": "Lista de obras (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Arnold_Krumm-Heller"
+    },
+    {
+     "nombre": "Wikisource",
+     "url": "https://es.wikisource.org/wiki/Henrich_Arnold_Krumm-Heller"
+    }
+   ],
+   "nota_derechos": "Falleció en 1949; en muchos países su obra ya es de dominio público.",
+   "obras": [
+    {
+     "titulo": "No Fornicarás",
+     "anio": 1908,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Conferencias Esotéricas",
+     "anio": 1909,
+     "url_descarga": null
+    },
+    {
+     "titulo": "El Zodíaco Azteca en Comparación con el de los Incas",
+     "anio": 1910,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Los Tatwas y sus Aplicaciones en la Vida Diaria",
+     "anio": 1911,
+     "url_descarga": null
+    },
+    {
+     "titulo": "La Ley de Karma",
+     "anio": 1912,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Rosa Cruz, Novela de Ocultismo Iniciático",
+     "anio": 1926,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Tratado de Quirología Médica",
+     "anio": 1927,
+     "url_descarga": null
+    },
+    {
+     "titulo": "El Tatwámetro o las Vibraciones del Éter",
+     "anio": 1927,
+     "url_descarga": null
+    },
+    {
+     "titulo": "El Secreto de la Suerte",
+     "anio": 1928,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Logos, Mantram, Magia",
+     "anio": 1930,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Biorritmo",
+     "anio": 1930,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Rosa Esotérica",
+     "anio": 1930,
+     "url_descarga": null
+    },
+    {
+     "titulo": "La Iglesia Gnóstica",
+     "anio": 1931,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Plantas Sagradas",
+     "anio": 1934,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Del Incienso a la Osmoterapia",
+     "anio": 1936,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Curso de Taumaturgia",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "El Mágico Poder del Mantram",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Las Enseñanzas de la Antigua Fraternidad Rosacruz",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Curso Rúnico",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Curso Zodiacal",
+     "anio": null,
+     "url_descarga": "https://ws-export.wmcloud.org/?lang=es&page=Curso_Zodiacal_(Krumm_Heller)&format=epub-3",
+     "desde": 2
+    }
+   ]
+  },
+  {
+   "id": "antiguos",
+   "nombre": "Textos gnósticos antiguos",
+   "color": "#b9b2a3",
+   "iniciales": "✦",
+   "fuentes": [],
+   "nota_derechos": "Las traducciones modernas al español (p. ej. Nag Hammadi) suelen tener derechos: el usuario aporta sus propias copias. La Biblia RV1909 es dominio público y se incluye en datos/.",
+   "obras": [
+    {
+     "titulo": "Pistis Sophia",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Evangelio de Tomás",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Evangelio de Felipe",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Evangelio de María Magdalena",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Evangelio de Judas (códice Tchacos)",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Apócrifo de Juan",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Evangelio de la Verdad",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Corpus Hermeticum",
+     "anio": null,
+     "url_descarga": null
+    },
+    {
+     "titulo": "Biblia Reina-Valera 1909",
+     "anio": null,
+     "url_descarga": null
+    }
+   ]
+  }
+ ],
+ "version": 3
+}

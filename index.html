@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ÍNTIMO · Biblioteca gnóstica</title>
+  <meta name="description" content="Lee, busca y practica con los libros de Samael Aun Weor, V.M. Lakhsmi, V.M. Rabolú y Krumm-Heller. App para Android." />
+  <meta name="theme-color" content="#0a0e1c" />
+  <link rel="icon" href="emblema.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --night:#0a0e1c; --card:#151d38; --line:#26315a; --gold:#c9974b; --gold-2:#e2b86f; --ink:#f3ecdc; --ink-2:#b9b2a3; --ink-3:#7f7a8e; }
+    * { box-sizing: border-box; margin: 0; }
+    body { background: radial-gradient(circle at 50% 0, #1b2347, var(--night) 60%) fixed; color: var(--ink); font: 16px/1.55 Inter, system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+    header { text-align: center; }
+    header img { width: 120px; filter: drop-shadow(0 0 30px rgba(201,151,75,.35)); }
+    h1 { font-family: Cinzel, serif; font-weight: 600; letter-spacing: .2em; font-size: 2.6rem; color: var(--gold-2); margin-top: 12px; }
+    .lema { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.35rem; color: var(--ink-2); }
+    .maestros { font-size: .75rem; letter-spacing: .2em; color: var(--ink-3); text-transform: uppercase; margin-top: 8px; }
+    h2 { font-family: Cinzel, serif; font-weight: 600; letter-spacing: .06em; font-size: 1.35rem; margin: 40px 0 12px; }
+    .tarjeta { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; margin-top: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .grid .tarjeta { margin: 0; }
+    .tarjeta b { display: block; margin-bottom: 4px; }
+    .tarjeta p, li { color: var(--ink-2); font-size: .95rem; }
+    ul { padding-left: 1.2rem; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: #1a1206; font-weight: 600; padding: 12px 20px; border-radius: 12px; text-decoration: none; margin: 6px 6px 0 0; }
+    .btn.o { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .precio { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; color: var(--gold-2); }
+    .nota { font-size: .8rem; color: var(--ink-3); margin-top: 10px; }
+    .captura { width: 100%; border-radius: 18px; border: 1px solid var(--line); margin-top: 16px; }
+    .galeria { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-top: 12px; }
+    .galeria img, .galeria video { flex: none; width: 200px; border-radius: 18px; border: 1px solid var(--line); scroll-snap-align: start; }
+    footer { text-align: center; color: var(--ink-3); font-size: .8rem; margin-top: 48px; }
+    footer a { color: var(--gold-2); }
+    @media (max-width: 480px) { h1 { font-size: 2rem; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="emblema.png" alt="" />
+    <h1>ÍNTIMO</h1>
+    <p class="lema">Biblioteca gnóstica</p>
+    <p class="maestros">Samael · Rabolú · Lakhsmi · Huiracocha</p>
+    <p style="margin-top:20px">
+      <a class="btn" id="descargar" href="#descargar">Descargar para Android</a>
+      <a class="btn o" href="app/">Usar en iPhone</a>
+      <a class="btn o" href="demo/">Probar la demo</a>
+      <a class="btn o" href="#comprar">Premium</a>
+    </p>
+  </header>
+
+  <img class="captura" src="maqueta.png" alt="Pantallas de ÍNTIMO: Hoy, Preguntar, Medicina oculta, Teurgia, Biblioteca" />
+
+  <h2>Tus libros, siempre a mano</h2>
+  <div class="grid">
+    <div class="tarjeta"><b>Busca en todos tus libros</b><p>«¿Qué dicen los maestros sobre la transmutación?»: todas las referencias, por maestro, libro y página. Funciona sin internet.</p></div>
+    <div class="tarjeta"><b>Fiel al texto</b><p>Toda cita es copia literal con su fuente y abre el libro en la página exacta. Lo que escribe la IA va rotulado aparte.</p></div>
+    <div class="tarjeta"><b>Cita del día</b><p>Cada mañana, una enseñanza literal con su reflexión, en tu notificación y en el widget.</p></div>
+    <div class="tarjeta"><b>Prácticas</b><p>Medicina oculta, teurgia con modo práctica paso a paso, mantras con tu voz, glosario por maestro.</p></div>
+    <div class="tarjeta"><b>Diario de sueños</b><p>Dicta tu sueño al despertar y mira qué dicen los libros de sus símbolos.</p></div>
+    <div class="tarjeta"><b>Música y videos</b><p>Tu música clásica con reseñas y lo que dicen los libros de cada compositor; conferencias de los maestros.</p></div>
+  </div>
+
+  <h2>Así se ve</h2>
+  <div class="galeria">
+    <video src="recorrido.mp4" autoplay muted loop playsinline poster="capturas/hoy.png"></video>
+    <img src="capturas/hoy.png" alt="Hoy: la cita del día con su fuente" loading="lazy" />
+    <img src="capturas/preguntar.png" alt="Preguntar: todas las referencias de tus libros" loading="lazy" />
+    <img src="capturas/lector.png" alt="El lector con letra ajustable" loading="lazy" />
+    <img src="capturas/teurgia.png" alt="Teurgia y prácticas" loading="lazy" />
+    <img src="capturas/medicina.png" alt="Medicina oculta" loading="lazy" />
+    <img src="capturas/biblioteca.png" alt="Biblioteca por maestro" loading="lazy" />
+    <img src="capturas/camino.png" alt="Mi camino: lectura, prácticas y sueños" loading="lazy" />
+  </div>
+
+  <h2 id="comprar">Gratis y Premium</h2>
+  <div class="grid">
+    <div class="tarjeta">
+      <b>Gratis</b>
+      <ul><li>7 días de Premium completo al instalar</li><li>La cita del día con su aviso cada mañana</li><li>3 respuestas de la IA al día</li><li>Biblioteca, lector con letra ajustable y lectura en voz alta</li><li>Todas las referencias de tus libros y la Biblia Reina-Valera 1909</li><li>Mi camino, fotos y respaldo</li></ul>
+    </div>
+    <div class="tarjeta">
+      <b>Premium · pago único</b>
+      <div class="precio">Próximamente</div>
+      <ul><li>Respuestas de la IA sin límite, con citas de tus libros</li><li>Reflexión de la cita, calendario, luna y horas planetarias</li><li>Medicina, teurgia, mantras, glosario y repaso</li><li>Diario con dictado y símbolos</li><li>Videos, música con reseñas, traducción y OCR</li></ul>
+      <p class="nota">La compra de Premium abrirá pronto. Mientras tanto, al instalar la app tienes 7 días de Premium completo para probarlo todo.</p>
+    </div>
+  </div>
+  <p class="nota">La IA usa tu propia clave gratuita de Google Gemini (se pide en la app). Los libros no vienen dentro de la app: se descargan de las fuentes que los regalan o importas los tuyos.</p>
+
+  <h2 id="instalar">Cómo instalar</h2>
+  <div class="tarjeta">
+    <ol style="padding-left:1.2rem;color:var(--ink-2)">
+      <li>Toca <b style="display:inline">Descargar para Android</b> desde tu teléfono.</li>
+      <li>Abre el archivo descargado. Si Android lo pide, permite «Instalar apps desconocidas».</li>
+      <li>Para actualizar, instala la nueva versión encima de la anterior: tus datos se conservan.</li>
+    </ol>
+  </div>
+
+  <h2 id="iphone">En iPhone</h2>
+  <div class="tarjeta">
+    <ol style="padding-left:1.2rem;color:var(--ink-2)">
+      <li>Abre <b style="display:inline">ÍNTIMO para iPhone</b> en Safari: <a href="app/" style="color:var(--gold-2)">kitichi.github.io/intimo-web/app</a>.</li>
+      <li>Toca <b style="display:inline">Compartir</b> y luego <b style="display:inline">Añadir a pantalla de inicio</b>.</li>
+      <li>Ábrela desde su ícono. Funciona sin internet y tus datos quedan en el teléfono. Tu clave Premium sirve igual.</li>
+    </ol>
+    <p class="nota">La versión de iPhone es una app web: no tiene avisos a su hora (cita diaria, prácticas, recordatorios), música con la pantalla bloqueada, OCR ni widget. Los libros se guardan desde Safari en Archivos y se importan.</p>
+  </div>
+
+  <footer>
+    <p>ÍNTIMO · <a href="privacidad.html">Política de privacidad</a></p>
+  </footer>
+</main>
+<script>
+  // El botón apunta siempre al APK más reciente publicado en version.json.
+  fetch('version.json', { cache: 'no-store' })
+    .then((r) => r.json())
+    .then((v) => {
+      const b = document.getElementById('descargar');
+      b.href = v.apk;
+      b.textContent = 'Descargar para Android · versión ' + v.nombre;
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>

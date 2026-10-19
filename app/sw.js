@@ -1,0 +1,31 @@
+// Generado por scripts/sw.mjs. No editar.
+const CACHE = 'intimo-0a5135af8a02';
+const PREVIOS = ["./","./assets/almacenWeb-BXcQQfEv.js","./assets/cinzel-latin-600-normal-Dd5YO2UX.woff2","./assets/cinzel-latin-ext-600-normal-BEFdM_VE.woff2","./assets/conexion-DFdrAFyq.js","./assets/cormorant-garamond-cyrillic-500-italic-DVnfXoMy.woff2","./assets/cormorant-garamond-cyrillic-500-normal-CyAY5ZLS.woff2","./assets/cormorant-garamond-cyrillic-600-normal-C2atO-64.woff2","./assets/cormorant-garamond-cyrillic-ext-500-italic-ClXnudBg.woff2","./assets/cormorant-garamond-cyrillic-ext-500-normal-Yta7XZ9C.woff2","./assets/cormorant-garamond-cyrillic-ext-600-normal-BMhMHfrj.woff2","./assets/cormorant-garamond-latin-500-italic-Y14P-dkT.woff2","./assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2","./assets/cormorant-garamond-latin-600-normal-Co1r35X9.woff2","./assets/cormorant-garamond-latin-ext-500-italic-CE7zdTnu.woff2","./assets/cormorant-garamond-latin-ext-500-normal-CH1kM7og.woff2","./assets/cormorant-garamond-latin-ext-600-normal-DaBc-lu7.woff2","./assets/cormorant-garamond-vietnamese-500-italic-D3igDnAQ.woff2","./assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2","./assets/cormorant-garamond-vietnamese-600-normal-BoXdMtcr.woff2","./assets/diccionario-BfforbII.js","./assets/dist-BM50nWTC.js","./assets/emblema-Cpya60Ri.png","./assets/epub-Dk3n5HM3.js","./assets/esm-CHPOsoZM.js","./assets/esm-DNMzJlSV.js","./assets/esm-cpY5EGz2.js","./assets/index-BP_odcKd.js","./assets/index-BYg2l3eQ.css","./assets/inter-cyrillic-400-normal-obahsSVq.woff2","./assets/inter-cyrillic-500-normal-BasfLYem.woff2","./assets/inter-cyrillic-600-normal-CWCymEST.woff2","./assets/inter-cyrillic-ext-400-normal-BQZuk6qB.woff2","./assets/inter-cyrillic-ext-500-normal-B0yAr1jD.woff2","./assets/inter-cyrillic-ext-600-normal-Dfes3d0z.woff2","./assets/inter-greek-400-normal-B4URO6DV.woff2","./assets/inter-greek-500-normal-BIZE56-Y.woff2","./assets/inter-greek-600-normal-plRanbMR.woff2","./assets/inter-greek-ext-400-normal-DGGRlc-M.woff2","./assets/inter-greek-ext-500-normal-C4iEst2y.woff2","./assets/inter-greek-ext-600-normal-DRtmH8MT.woff2","./assets/inter-latin-400-normal-C38fXH4l.woff2","./assets/inter-latin-500-normal-Cerq10X2.woff2","./assets/inter-latin-600-normal-LgqL8muc.woff2","./assets/inter-latin-ext-400-normal-C1nco2VV.woff2","./assets/inter-latin-ext-500-normal-CV4jyFjo.woff2","./assets/inter-latin-ext-600-normal-D2bJ5OIk.woff2","./assets/inter-vietnamese-400-normal-DMkecbls.woff2","./assets/inter-vietnamese-500-normal-DOriooB6.woff2","./assets/inter-vietnamese-600-normal-Cc8MFFhd.woff2","./assets/local.worker-Dq6u9uKg.js","./assets/nativo-9QAqS45y.js","./assets/nativo-CZgN7Xzp.js","./assets/pdf-7LrbUDzf.js","./assets/pdf-UbOFmw0V.js","./assets/pdf.worker.min-CjEcRF4W.mjs","./assets/pentagrama_cielo-DiwsUUmX.jpg","./assets/preload-helper-CRzLMJPS.js","./assets/rolldown-runtime-Dd_uD5pT.js","./assets/semantica.worker-Czbjb_j1.js","./assets/sql-wasm-C9hWYWoV.js","./assets/sql-wasm-DfANybxk.wasm","./assets/sql-wasm-browser-CYl2K4_8.js","./assets/sqljs-Dtja4Oz8.js","./assets/src-CsWfFrpB.js","./assets/tetragrammaton-BmgE7MbX.png","./assets/web-3-2g6PXa.js","./assets/web-BFlK3_xU.js","./assets/web-BHL1PMOl.js","./assets/web-BusvoLYx.js","./assets/web-DZM5WOxb.js","./assets/web-Dv8sRwAg.js","./assets/web-_At-_EuJ.js","./assets/web-fJn7Ojdx.js","./data/catalogo_maestros.json","./data/rv1909.json.gz","./iconos/icono-180.png","./iconos/icono-192.png","./iconos/icono-512.png","./index.html","./manifest.webmanifest","./pdfjs/standard_fonts/FoxitDingbats.pfb","./pdfjs/standard_fonts/FoxitFixed.pfb","./pdfjs/standard_fonts/FoxitFixedBold.pfb","./pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb","./pdfjs/standard_fonts/FoxitFixedItalic.pfb","./pdfjs/standard_fonts/FoxitSerif.pfb","./pdfjs/standard_fonts/FoxitSerifBold.pfb","./pdfjs/standard_fonts/FoxitSerifBoldItalic.pfb","./pdfjs/standard_fonts/FoxitSerifItalic.pfb","./pdfjs/standard_fonts/FoxitSymbol.pfb","./pdfjs/standard_fonts/LICENSE_FOXIT","./pdfjs/standard_fonts/LICENSE_LIBERATION","./pdfjs/standard_fonts/LiberationSans-Bold.ttf","./pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf","./pdfjs/standard_fonts/LiberationSans-Italic.ttf","./pdfjs/standard_fonts/LiberationSans-Regular.ttf","./pdfjs/wasm/LICENSE_JBIG2","./pdfjs/wasm/LICENSE_OPENJPEG","./pdfjs/wasm/LICENSE_PDFJS_JBIG2","./pdfjs/wasm/LICENSE_PDFJS_OPENJPEG","./pdfjs/wasm/LICENSE_PDFJS_QCMS","./pdfjs/wasm/LICENSE_QCMS","./pdfjs/wasm/jbig2.wasm","./pdfjs/wasm/jbig2_nowasm_fallback.js","./pdfjs/wasm/openjpeg.wasm","./pdfjs/wasm/openjpeg_nowasm_fallback.js","./pdfjs/wasm/qcms_bg.wasm","./pdfjs/wasm/quickjs-eval.js","./pdfjs/wasm/quickjs-eval.wasm"];
+
+self.addEventListener('install', (e) => {
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PREVIOS)).then(() => self.skipWaiting()));
+});
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil(
+    caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith('intimo-') && k !== CACHE).map((k) => caches.delete(k))))
+      .then(() => self.clients.claim()),
+  );
+});
+
+self.addEventListener('fetch', (e) => {
+  const r = e.request;
+  if (r.method !== 'GET' || new URL(r.url).origin !== self.location.origin) return;
+  // version.json siempre de la red (aviso de versión nueva).
+  if (r.url.includes('version.json')) return;
+  if (r.mode === 'navigate') {
+    e.respondWith(fetch(r).catch(() => caches.match('./index.html')));
+    return;
+  }
+  e.respondWith(
+    caches.match(r).then((hay) => hay || fetch(r).then((resp) => {
+      if (resp.ok) { const copia = resp.clone(); caches.open(CACHE).then((c) => c.put(r, copia)); }
+      return resp;
+    })),
+  );
+});
