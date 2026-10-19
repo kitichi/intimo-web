@@ -1,7 +1,7 @@
 {
-  "version": 420224,
-  "nombre": "0.2.420224",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.420224.apk",
-  "notas": "Más seguridad en las licencias: cada clave queda hecha para un teléfono\nPremium solo funciona en la app original\nMejoras de estabilidad",
+  "version": 420237,
+  "nombre": "0.2.420237",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.420237.apk",
+  "notas": "Al terminar los 7 días de prueba, sin Premium queda solo la cita del día\nTus datos se conservan siempre",
   "fecha": "2026-10-19"
 }
