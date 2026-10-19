@@ -1,7 +1,7 @@
 {
-  "version": 420208,
-  "nombre": "0.2.420208",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.420208.apk",
-  "notas": "Búsqueda mucho más rápida con muchos libros\nLa búsqueda por significado queda lista al abrir la app",
+  "version": 420224,
+  "nombre": "0.2.420224",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.420224.apk",
+  "notas": "Más seguridad en las licencias: cada clave queda hecha para un teléfono\nPremium solo funciona en la app original\nMejoras de estabilidad",
   "fecha": "2026-10-19"
 }
