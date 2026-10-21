@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-3-2g6PXa.js","./dist-BM50nWTC.js"])))=>i.map(i=>d[i]);
+import{n as e}from"./rolldown-runtime-Dd_uD5pT.js";import{o as t}from"./dist-BM50nWTC.js";import{t as n}from"./preload-helper-CRzLMJPS.js";var r=e({Network:()=>i}),i=t(`Network`,{web:()=>n(()=>import(`./web-3-2g6PXa.js`).then(e=>new e.NetworkWeb),__vite__mapDeps([0,1]),import.meta.url)});export{r as n,i as t};
