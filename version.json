@@ -1,7 +1,7 @@
 {
-  "version": 422660,
-  "nombre": "0.2.422660",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.422660.apk",
-  "notas": "La app abre más rápido\nLa pantalla Hoy carga más rápido",
+  "version": 422705,
+  "nombre": "0.2.422705",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.422705.apk",
+  "notas": "Al tocar una cita de la respuesta, el pasaje del libro se abre justo debajo",
   "fecha": "2026-10-21"
 }
