@@ -1,7 +1,7 @@
 {
-  "version": 422776,
-  "nombre": "0.2.422776",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.422776.apk",
-  "notas": "Más fácil empezar: los libros se descargan desde la bienvenida con un toque\nClave de la IA guiada: se crea y se pega sola al volver de Google",
-  "fecha": "2026-10-21"
+  "version": 430338,
+  "nombre": "0.2.430338",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.430338.apk",
+  "notas": "Respuestas más rápidas y con menos fallas: si Google está saturado o la conexión es lenta, usa enseguida otro modelo u otra IA\nBotón «Intentar de nuevo» cuando una respuesta falla",
+  "fecha": "2026-10-26"
 }
