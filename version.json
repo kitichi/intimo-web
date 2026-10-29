@@ -1,7 +1,7 @@
 {
-  "version": 430349,
-  "nombre": "0.2.430349",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.430349.apk",
-  "notas": "Licencias con fecha de vencimiento (se ve en Ajustes › Licencia)",
-  "fecha": "2026-10-26"
+  "version": 434188,
+  "nombre": "0.2.434188",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.434188.apk",
+  "notas": "Se retiró «¿Qué obra suena?» (reconocer música); tu música importada sigue igual",
+  "fecha": "2026-10-29"
 }
