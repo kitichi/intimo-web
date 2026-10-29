@@ -1,7 +1,7 @@
 {
-  "version": 434188,
-  "nombre": "0.2.434188",
-  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.434188.apk",
-  "notas": "Se retiró «¿Qué obra suena?» (reconocer música); tu música importada sigue igual",
+  "version": 434593,
+  "nombre": "0.2.434593",
+  "apk": "https://kitichi.github.io/intimo-web/apk/intimo-0.2.434593.apk",
+  "notas": "Versión gratis: la cita del día, 20 minutos de lectura y 1 pregunta a la IA al día\nEn la prueba de 7 días, 1 pregunta a la IA al día\nLa IA ya no necesita ninguna clave: entras con tu correo y pides tu código por WhatsApp\nLas respuestas llegan en vivo mientras se escriben",
   "fecha": "2026-10-29"
 }

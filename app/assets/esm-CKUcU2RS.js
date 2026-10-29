@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-CUQERv3_.js","./dist-BZ5u_Dz8.js"])))=>i.map(i=>d[i]);
+import{n as e}from"./rolldown-runtime-Dd_uD5pT.js";import{a as t}from"./dist-BZ5u_Dz8.js";import{t as n}from"./preload-helper-CRzLMJPS.js";var r=e({Network:()=>i}),i=t(`Network`,{web:()=>n(()=>import(`./web-CUQERv3_.js`).then(e=>new e.NetworkWeb),__vite__mapDeps([0,1]),import.meta.url)});export{r as n,i as t};
