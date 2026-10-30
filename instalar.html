@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cómo instalar ÍNTIMO</title>
+  <meta name="description" content="Guía paso a paso para instalar ÍNTIMO en Android: qué tocar en cada aviso del teléfono." />
+  <meta name="theme-color" content="#0a0e1c" />
+  <link rel="icon" href="emblema.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --night:#0a0e1c; --card:#151d38; --line:#26315a; --gold:#c9974b; --gold-2:#e2b86f; --ink:#f3ecdc; --ink-2:#b9b2a3; --ink-3:#7f7a8e; }
+    * { box-sizing: border-box; margin: 0; }
+    body { background: radial-gradient(circle at 50% 0, #1b2347, var(--night) 60%) fixed; color: var(--ink); font: 16px/1.55 Inter, system-ui, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { text-align: center; }
+    header img { width: 72px; }
+    h1 { font-family: Cinzel, serif; font-weight: 600; letter-spacing: .08em; font-size: 1.6rem; color: var(--gold-2); margin-top: 8px; }
+    .sub { color: var(--ink-2); margin-top: 6px; }
+    h2 { font-family: Cinzel, serif; font-weight: 600; font-size: 1.1rem; margin: 32px 0 10px; }
+    .paso { display: flex; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px; margin-top: 12px; }
+    .num { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--gold); color: #1a1206; font-weight: 700; display: grid; place-items: center; }
+    .paso b { color: var(--ink); }
+    .paso p { color: var(--ink-2); font-size: .95rem; }
+    .paso p + p { margin-top: 6px; }
+    /* Dibujo simple del aviso del teléfono, con el botón que hay que tocar resaltado. */
+    .aviso { margin-top: 10px; background: #f4f4f6; color: #1d1d22; border-radius: 16px; padding: 14px 14px 10px; font-size: .85rem; max-width: 320px; }
+    .aviso .t { font-weight: 600; margin-bottom: 4px; }
+    .aviso .bs { display: flex; justify-content: flex-end; gap: 14px; margin-top: 10px; font-weight: 600; color: #3b5bdb; }
+    .aviso .bs span.toca { background: #ffe8a3; color: #1d1d22; border-radius: 8px; padding: 2px 8px; outline: 2px solid var(--gold); }
+    .btn { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: #1a1206; font-weight: 600; padding: 12px 20px; border-radius: 12px; text-decoration: none; margin: 16px 6px 0 0; }
+    .btn.o { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .nota { font-size: .85rem; color: var(--ink-3); margin-top: 10px; }
+    .seguro { border-color: var(--gold); }
+    footer { text-align: center; color: var(--ink-3); font-size: .8rem; margin-top: 40px; }
+    footer a { color: var(--gold-2); }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="emblema.png" alt="" />
+    <h1>Cómo instalar ÍNTIMO</h1>
+    <p class="sub">ÍNTIMO no viene de Google Play, por eso el teléfono muestra algunos avisos. Es normal: aquí tienes qué tocar en cada uno. Toma 1 minuto.</p>
+    <p><a class="btn" id="descargar" href="index.html#descargar">Descargar ÍNTIMO</a></p>
+  </header>
+
+  <div class="paso seguro">
+    <div class="num">✓</div>
+    <div>
+      <p><b>¿Es seguro?</b> Sí. ÍNTIMO no pide tus contactos, mensajes ni ubicación, y siempre está firmada con la misma firma: cada actualización se instala encima sin perder tus notas. Descárgala solo desde esta página.</p>
+    </div>
+  </div>
+
+  <h2>En cualquier Android</h2>
+
+  <div class="paso">
+    <div class="num">1</div>
+    <div>
+      <p>Abre esta página <b>en Chrome</b> y toca <b>Descargar ÍNTIMO</b>. Chrome puede advertir que el archivo «puede ser dañino»:</p>
+      <div class="aviso">
+        <div class="t">¿Quieres descargar intimo.apk de todos modos?</div>
+        Este tipo de archivo puede dañar tu dispositivo.
+        <div class="bs"><span>Cancelar</span><span class="toca">Descargar de todos modos</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="paso">
+    <div class="num">2</div>
+    <div>
+      <p>Cuando termine, toca <b>Abrir</b> (o abre el archivo desde la notificación o desde <b>Descargas</b>).</p>
+    </div>
+  </div>
+
+  <div class="paso">
+    <div class="num">3</div>
+    <div>
+      <p>La primera vez, Android pide permiso para instalar apps desde Chrome:</p>
+      <div class="aviso">
+        <div class="t">Por tu seguridad, el teléfono no puede instalar apps desconocidas de esta fuente.</div>
+        <div class="bs"><span>Cancelar</span><span class="toca">Ajustes</span></div>
+      </div>
+      <p>Toca <b>Ajustes</b>, activa <b>Permitir desde esta fuente</b> y vuelve atrás con la flecha.</p>
+    </div>
+  </div>
+
+  <div class="paso">
+    <div class="num">4</div>
+    <div>
+      <p>Toca <b>Instalar</b>. Si aparece <b>Google Play Protect</b> diciendo que no conoce la app o que fue bloqueada:</p>
+      <div class="aviso">
+        <div class="t">App bloqueada para proteger tu dispositivo</div>
+        Esta app se creó para una versión anterior de Android o es de un desarrollador desconocido.
+        <div class="bs"><span>Más detalles</span><span>Aceptar</span></div>
+      </div>
+      <p>Toca <b>Más detalles</b> y luego <b>Instalar de todos modos</b>. Si en vez de eso ofrece <b>Analizar app</b>, puedes tocarlo: el análisis termina y deja instalar.</p>
+    </div>
+  </div>
+
+  <div class="paso">
+    <div class="num">5</div>
+    <div>
+      <p>Toca <b>Abrir</b>. ¡Listo! Elige tu idioma, escribe tu correo y pide tu código por WhatsApp.</p>
+    </div>
+  </div>
+
+  <h2>Si tu teléfono es Samsung</h2>
+  <div class="paso">
+    <div class="num">S</div>
+    <div>
+      <p>Muchos Samsung nuevos traen el <b>Bloqueador automático</b>, que impide instalar cualquier app que no sea de las tiendas. Si al tocar el archivo no pasa nada o dice que está bloqueado:</p>
+      <p><b>Ajustes → Seguridad y privacidad → Bloqueador automático →</b> desactívalo. Instala ÍNTIMO y, si quieres, vuelve a activarlo después: la app ya instalada sigue funcionando.</p>
+    </div>
+  </div>
+
+  <h2>Si tu teléfono es Xiaomi, Redmi o POCO</h2>
+  <div class="paso">
+    <div class="num">X</div>
+    <div>
+      <p>El teléfono puede analizar la app unos segundos y mostrar un aviso con un contador. Espera a que termine y toca <b>Continuar</b> o <b>Instalar de todos modos</b>.</p>
+    </div>
+  </div>
+
+  <h2>Para actualizar</h2>
+  <div class="paso">
+    <div class="num">↻</div>
+    <div>
+      <p>Cuando haya versión nueva, ÍNTIMO te avisa en <b>Hoy</b>: tócalo y se instala encima. Tus libros descargados, notas, diario y marcadores se conservan.</p>
+    </div>
+  </div>
+
+  <h2>¿Sigue sin instalar?</h2>
+  <div class="paso">
+    <div class="num">?</div>
+    <div>
+      <p>Escríbenos por WhatsApp y te ayudamos paso a paso.</p>
+      <a class="btn o" href="https://wa.me/584266822537?text=Hola%2C%20no%20puedo%20instalar%20%C3%8DNTIMO%20en%20mi%20tel%C3%A9fono.">Pedir ayuda por WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    <p><a href="index.html">Volver a ÍNTIMO</a> · <a href="privacidad.html">Política de privacidad</a></p>
+  </footer>
+</main>
+<script>
+  // El botón apunta siempre al APK más reciente publicado en version.json.
+  fetch('version.json', { cache: 'no-store' })
+    .then((r) => r.json())
+    .then((v) => { document.getElementById('descargar').href = v.apk; })
+    .catch(() => {});
+</script>
+</body>
+</html>
