@@ -35,38 +35,43 @@
     .galeria img, .galeria video { flex: none; width: 200px; border-radius: 18px; border: 1px solid var(--line); scroll-snap-align: start; }
     footer { text-align: center; color: var(--ink-3); font-size: .8rem; margin-top: 48px; }
     footer a { color: var(--gold-2); }
+    .idiomas { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 10px 16px 0; }
+    .idiomas button { background: transparent; color: var(--ink-3); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font: 500 .75rem Inter, system-ui, sans-serif; cursor: pointer; }
+    .idiomas button.on { color: var(--gold-2); border-color: var(--gold); }
     @media (max-width: 480px) { h1 { font-size: 2rem; } }
   </style>
+  <script src="idiomas.js"></script>
 </head>
 <body>
 <main>
   <header>
     <img src="emblema.png" alt="" />
     <h1>ÍNTIMO</h1>
-    <p class="lema">Biblioteca gnóstica</p>
+    <p class="lema" data-t="lema">Biblioteca gnóstica</p>
     <p class="maestros">Samael · Rabolú · Lakhsmi · Huiracocha</p>
     <p style="margin-top:20px">
       <a class="btn" id="descargar" href="#descargar">Descargar para Android</a>
-      <a class="btn o" href="app/">Usar en iPhone</a>
-      <a class="btn o" href="demo/">Probar la demo</a>
+      <a class="btn o" href="app/" data-t="iphone">Usar en iPhone</a>
+      <a class="btn o" href="demo/" data-t="demo">Probar la demo</a>
       <a class="btn o" href="#comprar">Premium</a>
     </p>
-    <p class="nota" style="font-size:.9rem"><a href="instalar.html" style="color:var(--gold-2)">¿Te sale un aviso al instalar? Mira la guía paso a paso</a></p>
+    <p class="nota" style="font-size:.9rem"><a href="instalar.html" style="color:var(--gold-2)" data-t="aviso_guia">¿Te sale un aviso al instalar? Mira la guía paso a paso</a></p>
+    <p class="tarjeta" id="invitacion" hidden style="margin-top:16px"><span data-t="invitacion">Te invitaron a ÍNTIMO. Al entrar en la app, escribe este código de invitación:</span> <b style="display:inline;color:var(--gold-2);letter-spacing:.15em"></b></p>
   </header>
 
   <img class="captura" src="maqueta.png" alt="Pantallas de ÍNTIMO: Hoy, Preguntar, Medicina oculta, Teurgia, Biblioteca" />
 
-  <h2>Tus libros, siempre a mano</h2>
+  <h2 data-t="h_libros">Tus libros, siempre a mano</h2>
   <div class="grid">
-    <div class="tarjeta"><b>Más de 450 libros</b><p>De 25 autores, listos para leer al instante sin descargarlos. «¿Qué dicen los maestros sobre la transmutación?»: todas las referencias, por maestro, libro y página.</p></div>
-    <div class="tarjeta"><b>Fiel al texto</b><p>Toda cita es copia literal con su fuente y abre el libro en la página exacta. Lo que escribe la IA va rotulado aparte.</p></div>
-    <div class="tarjeta"><b>Cita del día</b><p>Cada mañana, una enseñanza literal con su reflexión, en tu notificación y en el widget.</p></div>
-    <div class="tarjeta"><b>Prácticas</b><p>Medicina oculta, teurgia con modo práctica paso a paso, mantras con tu voz, glosario por maestro.</p></div>
-    <div class="tarjeta"><b>Diario de sueños</b><p>Dicta tu sueño al despertar y mira qué dicen los libros de sus símbolos.</p></div>
-    <div class="tarjeta"><b>Enseñanzas</b><p>Cientos de conferencias de los maestros, videos que se adaptan a tu señal, láminas y música. Descárgalos para usarlos sin internet.</p></div>
+    <div class="tarjeta" data-t="t1"><b>Más de 450 libros</b><p>De 25 autores, listos para leer al instante sin descargarlos. «¿Qué dicen los maestros sobre la transmutación?»: todas las referencias, por maestro, libro y página.</p></div>
+    <div class="tarjeta" data-t="t2"><b>Fiel al texto</b><p>Toda cita es copia literal con su fuente y abre el libro en la página exacta. Lo que escribe la IA va rotulado aparte.</p></div>
+    <div class="tarjeta" data-t="t3"><b>Cita del día</b><p>Cada mañana, una enseñanza literal con su reflexión, en tu notificación y en el widget.</p></div>
+    <div class="tarjeta" data-t="t4"><b>Prácticas</b><p>Medicina oculta, teurgia con modo práctica paso a paso, mantras con tu voz, glosario por maestro.</p></div>
+    <div class="tarjeta" data-t="t5"><b>Diario de sueños</b><p>Dicta tu sueño al despertar y mira qué dicen los libros de sus símbolos.</p></div>
+    <div class="tarjeta" data-t="t6"><b>Enseñanzas</b><p>Cientos de conferencias de los maestros, videos que se adaptan a tu señal, láminas y música. Descárgalos para usarlos sin internet.</p></div>
   </div>
 
-  <h2>Así se ve</h2>
+  <h2 data-t="h_asi">Así se ve</h2>
   <div class="galeria">
     <video src="recorrido.mp4" autoplay muted loop playsinline poster="capturas/hoy.png"></video>
     <img src="capturas/hoy.png" alt="Hoy: la cita del día con su fuente" loading="lazy" />
@@ -78,42 +83,42 @@
     <img src="capturas/camino.png" alt="Mi camino: lectura, prácticas y sueños" loading="lazy" />
   </div>
 
-  <h2 id="comprar">Gratis y Premium</h2>
+  <h2 id="comprar" data-t="h_premium">Gratis y Premium</h2>
   <div class="grid">
     <div class="tarjeta">
-      <b>Sin pagar</b>
-      <ul><li>7 días de Premium completo al instalar</li><li>La cita del día con su aviso cada mañana</li><li>Después de la prueba: la cita del día, 20 minutos de lectura y 1 pregunta a la IA al día</li></ul>
+      <b data-t="sin_pagar">Sin pagar</b>
+      <ul data-t="gratis_lista"><li>7 días de Premium completo al instalar</li><li>La cita del día con su aviso cada mañana</li><li>Después de la prueba: la cita del día, 20 minutos de lectura y 1 pregunta a la IA al día</li></ul>
     </div>
     <div class="tarjeta">
       <b>Premium</b>
-      <div class="precio">Próximamente</div>
-      <ul><li>Toda la biblioteca sin límite, y descargas para leer sin internet</li><li>Preguntas a la IA con citas de los libros</li><li>Conferencias, videos, láminas y música de los maestros</li><li>Reflexión de la cita, calendario, luna y horas planetarias</li><li>Medicina, teurgia, mantras, glosario y repaso</li><li>Diario con dictado y símbolos</li></ul>
-      <p class="nota">La compra de Premium abrirá pronto. Mientras tanto, al instalar la app tienes 7 días de Premium completo para probarlo todo.</p>
+      <div class="precio" data-t="pronto">Próximamente</div>
+      <ul data-t="premium_lista"><li>Toda la biblioteca sin límite, y descargas para leer sin internet</li><li>Preguntas a la IA con citas de los libros</li><li>Conferencias, videos, láminas y música de los maestros</li><li>Reflexión de la cita, calendario, luna y horas planetarias</li><li>Medicina, teurgia, mantras, glosario y repaso</li><li>Diario con dictado y símbolos</li></ul>
+      <p class="nota" data-t="nota_premium">Al instalar la app tienes 7 días de Premium completo para probarlo todo.</p>
     </div>
   </div>
-  <p class="nota">Entras con tu correo y un código que te llega por WhatsApp: no hace falta ninguna clave ni configurar nada.</p>
+  <p class="nota" data-t="nota_cuenta">Entras con tu correo y un código que te llega por WhatsApp: no hace falta ninguna clave ni configurar nada.</p>
 
-  <h2 id="instalar">Cómo instalar</h2>
+  <h2 id="instalar" data-t="h_instalar">Cómo instalar</h2>
   <div class="tarjeta">
-    <ol style="padding-left:1.2rem;color:var(--ink-2)">
+    <ol style="padding-left:1.2rem;color:var(--ink-2)" data-t="instalar_lista">
       <li>Toca <b style="display:inline">Descargar para Android</b> desde tu teléfono.</li>
       <li>Abre el archivo descargado. Si Android muestra avisos, sigue la <a href="instalar.html" style="color:var(--gold-2)">guía paso a paso</a>: dice qué tocar en cada uno (también en Samsung y Xiaomi).</li>
       <li>Para actualizar, instala la nueva versión encima de la anterior: tus datos se conservan.</li>
     </ol>
   </div>
 
-  <h2 id="iphone">En iPhone</h2>
+  <h2 id="iphone" data-t="h_iphone">En iPhone</h2>
   <div class="tarjeta">
-    <ol style="padding-left:1.2rem;color:var(--ink-2)">
+    <ol style="padding-left:1.2rem;color:var(--ink-2)" data-t="iphone_lista">
       <li>Abre <b style="display:inline">ÍNTIMO para iPhone</b> en Safari: <a href="app/" style="color:var(--gold-2)">kitichi.github.io/intimo-web/app</a>.</li>
       <li>Toca <b style="display:inline">Compartir</b> y luego <b style="display:inline">Añadir a pantalla de inicio</b>.</li>
-      <li>Ábrela desde su ícono. Funciona sin internet y tus datos quedan en el teléfono. Tu clave Premium sirve igual.</li>
+      <li>Ábrela desde su ícono y entra con tu correo.</li>
     </ol>
-    <p class="nota">La versión de iPhone es una app web: no tiene avisos a su hora (cita diaria, prácticas, recordatorios), música con la pantalla bloqueada, OCR ni widget. Los libros se guardan desde Safari en Archivos y se importan.</p>
+    <p class="nota" data-t="iphone_nota">La versión de iPhone es una app web: no tiene avisos a su hora (cita diaria, prácticas), música con la pantalla bloqueada ni widget.</p>
   </div>
 
   <footer>
-    <p>ÍNTIMO · <a href="privacidad.html">Política de privacidad</a></p>
+    <p>ÍNTIMO · <a href="privacidad.html" data-t="privacidad">Política de privacidad</a></p>
   </footer>
 </main>
 <script>
@@ -122,8 +127,10 @@
     .then((r) => r.json())
     .then((v) => {
       const b = document.getElementById('descargar');
+      const poner = () => { b.textContent = textoPagina('descargar') + ' · ' + textoPagina('version') + ' ' + v.nombre; };
       b.href = v.apk;
-      b.textContent = 'Descargar para Android · versión ' + v.nombre;
+      poner();
+      document.addEventListener('idioma', poner);
     })
     .catch(() => {});
 </script>

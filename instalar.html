@@ -33,34 +33,37 @@
     .btn.o { background: transparent; color: var(--ink); border: 1px solid var(--line); }
     .nota { font-size: .85rem; color: var(--ink-3); margin-top: 10px; }
     .seguro { border-color: var(--gold); }
+    .idiomas { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 10px 16px 0; }
+    .idiomas button { background: transparent; color: var(--ink-3); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font: 500 .75rem Inter, system-ui, sans-serif; cursor: pointer; }
+    .idiomas button.on { color: var(--gold-2); border-color: var(--gold); }
     footer { text-align: center; color: var(--ink-3); font-size: .8rem; margin-top: 40px; }
     footer a { color: var(--gold-2); }
   </style>
+  <script src="idiomas.js"></script>
 </head>
 <body>
 <main>
   <header>
     <img src="emblema.png" alt="" />
-    <h1>Cómo instalar ÍNTIMO</h1>
-    <p class="sub">ÍNTIMO no viene de Google Play, por eso el teléfono muestra algunos avisos. Es normal: aquí tienes qué tocar en cada uno. Toma 1 minuto.</p>
-    <p><a class="btn" id="descargar" href="index.html#descargar">Descargar ÍNTIMO</a></p>
+    <h1 data-t="g_titulo">Cómo instalar ÍNTIMO</h1>
+    <p class="sub" data-t="g_sub">ÍNTIMO no viene de Google Play, por eso el teléfono muestra algunos avisos. Es normal: aquí tienes qué tocar en cada uno. Toma 1 minuto.</p>
+    <p><a class="btn" id="descargar" href="index.html#descargar" data-t="g_boton">Descargar ÍNTIMO</a></p>
   </header>
 
   <div class="paso seguro">
     <div class="num">✓</div>
     <div>
-      <p><b>¿Es seguro?</b> Sí. ÍNTIMO no pide tus contactos, mensajes ni ubicación, y siempre está firmada con la misma firma: cada actualización se instala encima sin perder tus notas. Descárgala solo desde esta página.</p>
+      <p data-t="g_seguro"><b>¿Es seguro?</b> Sí. ÍNTIMO no pide tus contactos, mensajes ni ubicación, y siempre está firmada con la misma firma: cada actualización se instala encima sin perder tus notas. Descárgala solo desde esta página.</p>
     </div>
   </div>
 
-  <h2>En cualquier Android</h2>
+  <h2 data-t="g_h1">En cualquier Android</h2>
 
   <div class="paso">
     <div class="num">1</div>
     <div>
-      <p>Abre esta página <b>en Chrome</b> y toca <b>Descargar ÍNTIMO</b>. Chrome puede advertir que el archivo «puede ser dañino»:</p>
-      <div class="aviso">
-        <div class="t">¿Quieres descargar intimo.apk de todos modos?</div>
+      <p data-t="g_p1">Abre esta página <b>en Chrome</b> y toca <b>Descargar ÍNTIMO</b>. Chrome puede advertir que el archivo «puede ser dañino»:</p>
+      <div class="aviso" data-t="g_a1">        <div class="t">¿Quieres descargar intimo.apk de todos modos?</div>
         Este tipo de archivo puede dañar tu dispositivo.
         <div class="bs"><span>Cancelar</span><span class="toca">Descargar de todos modos</span></div>
       </div>
@@ -70,78 +73,76 @@
   <div class="paso">
     <div class="num">2</div>
     <div>
-      <p>Cuando termine, toca <b>Abrir</b> (o abre el archivo desde la notificación o desde <b>Descargas</b>).</p>
+      <p data-t="g_p2">Cuando termine, toca <b>Abrir</b> (o abre el archivo desde la notificación o desde <b>Descargas</b>).</p>
     </div>
   </div>
 
   <div class="paso">
     <div class="num">3</div>
     <div>
-      <p>La primera vez, Android pide permiso para instalar apps desde Chrome:</p>
-      <div class="aviso">
-        <div class="t">Por tu seguridad, el teléfono no puede instalar apps desconocidas de esta fuente.</div>
+      <p data-t="g_p3">La primera vez, Android pide permiso para instalar apps desde Chrome:</p>
+      <div class="aviso" data-t="g_a3">        <div class="t">Por tu seguridad, el teléfono no puede instalar apps desconocidas de esta fuente.</div>
         <div class="bs"><span>Cancelar</span><span class="toca">Ajustes</span></div>
       </div>
-      <p>Toca <b>Ajustes</b>, activa <b>Permitir desde esta fuente</b> y vuelve atrás con la flecha.</p>
+      <p data-t="g_p3b">Toca <b>Ajustes</b>, activa <b>Permitir desde esta fuente</b> y vuelve atrás con la flecha.</p>
     </div>
   </div>
 
   <div class="paso">
     <div class="num">4</div>
     <div>
-      <p>Toca <b>Instalar</b>. Si aparece <b>Google Play Protect</b> diciendo que no conoce la app o que fue bloqueada:</p>
-      <div class="aviso">
-        <div class="t">App bloqueada para proteger tu dispositivo</div>
+      <p data-t="g_p4">Toca <b>Instalar</b>. Si aparece <b>Google Play Protect</b> diciendo que no conoce la app o que fue bloqueada:</p>
+      <div class="aviso" data-t="g_a4">        <div class="t">App bloqueada para proteger tu dispositivo</div>
         Esta app se creó para una versión anterior de Android o es de un desarrollador desconocido.
         <div class="bs"><span>Más detalles</span><span>Aceptar</span></div>
       </div>
-      <p>Toca <b>Más detalles</b> y luego <b>Instalar de todos modos</b>. Si en vez de eso ofrece <b>Analizar app</b>, puedes tocarlo: el análisis termina y deja instalar.</p>
+      <p data-t="g_p4b">Toca <b>Más detalles</b> y luego <b>Instalar de todos modos</b>. Si en vez de eso ofrece <b>Analizar app</b>, puedes tocarlo: el análisis termina y deja instalar.</p>
     </div>
   </div>
 
   <div class="paso">
     <div class="num">5</div>
     <div>
-      <p>Toca <b>Abrir</b>. ¡Listo! Elige tu idioma, escribe tu correo y pide tu código por WhatsApp.</p>
+      <p data-t="g_p5">Toca <b>Abrir</b>. ¡Listo! Elige tu idioma, escribe tu correo y pide tu código por WhatsApp.</p>
     </div>
   </div>
 
-  <h2>Si tu teléfono es Samsung</h2>
+  <h2 data-t="g_h2">Si tu teléfono es Samsung</h2>
   <div class="paso">
     <div class="num">S</div>
     <div>
-      <p>Muchos Samsung nuevos traen el <b>Bloqueador automático</b>, que impide instalar cualquier app que no sea de las tiendas. Si al tocar el archivo no pasa nada o dice que está bloqueado:</p>
-      <p><b>Ajustes → Seguridad y privacidad → Bloqueador automático →</b> desactívalo. Instala ÍNTIMO y, si quieres, vuelve a activarlo después: la app ya instalada sigue funcionando.</p>
+      <p data-t="g_s1">Muchos Samsung nuevos traen el <b>Bloqueador automático</b>, que impide instalar cualquier app que no sea de las tiendas. Si al tocar el archivo no pasa nada o dice que está bloqueado:</p>
+      <p data-t="g_s2"><b>Ajustes → Seguridad y privacidad → Bloqueador automático →</b> desactívalo. Instala ÍNTIMO y, si quieres, vuelve a activarlo después: la app ya instalada sigue funcionando.</p>
     </div>
   </div>
 
-  <h2>Si tu teléfono es Xiaomi, Redmi o POCO</h2>
+  <h2 data-t="g_h3">Si tu teléfono es Xiaomi, Redmi o POCO</h2>
   <div class="paso">
     <div class="num">X</div>
     <div>
-      <p>El teléfono puede analizar la app unos segundos y mostrar un aviso con un contador. Espera a que termine y toca <b>Continuar</b> o <b>Instalar de todos modos</b>.</p>
+      <p data-t="g_x">El teléfono puede analizar la app unos segundos y mostrar un aviso con un contador. Espera a que termine y toca <b>Continuar</b> o <b>Instalar de todos modos</b>.</p>
     </div>
   </div>
 
-  <h2>Para actualizar</h2>
+  <h2 data-t="g_h4">Para actualizar</h2>
   <div class="paso">
     <div class="num">↻</div>
     <div>
-      <p>Cuando haya versión nueva, ÍNTIMO te avisa en <b>Hoy</b>: tócalo y se instala encima. Tus libros descargados, notas, diario y marcadores se conservan.</p>
+      <p data-t="g_act">Cuando haya versión nueva, ÍNTIMO te avisa en <b>Hoy</b>: tócalo y se instala encima. Tus libros descargados, notas, diario y marcadores se conservan.</p>
     </div>
   </div>
 
-  <h2>¿Sigue sin instalar?</h2>
+  <h2 data-t="g_h5">¿Sigue sin instalar?</h2>
   <div class="paso">
     <div class="num">?</div>
     <div>
-      <p>Escríbenos por WhatsApp y te ayudamos paso a paso.</p>
-      <a class="btn o" href="https://wa.me/584266822537?text=Hola%2C%20no%20puedo%20instalar%20%C3%8DNTIMO%20en%20mi%20tel%C3%A9fono.">Pedir ayuda por WhatsApp</a>
+      <p data-t="g_ayuda">Escríbenos por WhatsApp y te ayudamos paso a paso.</p>
+      <a class="btn o" href="https://wa.me/584266822537?text=Hola%2C%20no%20puedo%20instalar%20%C3%8DNTIMO%20en%20mi%20tel%C3%A9fono." data-t="g_boton_ayuda">Pedir ayuda por WhatsApp</a>
     </div>
   </div>
 
   <footer>
-    <p><a href="index.html">Volver a ÍNTIMO</a> · <a href="privacidad.html">Política de privacidad</a></p>
+    <p><a href="index.html" data-t="g_volver">Volver a ÍNTIMO</a> · <a href="privacidad.html" data-t="privacidad">Política de privacidad</a></p>
   </footer>
 </main>
 <script>
